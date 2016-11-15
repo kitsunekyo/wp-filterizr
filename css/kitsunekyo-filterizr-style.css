@@ -1,0 +1,55 @@
+/**
+ * Stylesheet for Plugin KitsuneKyo Filterizr
+ */
+
+/* SEARCH SECTION */
+section .container .filterizr-search {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+section .container .filterizr-search p {
+  margin: 0;
+}
+section .container .filterizr-search input[type="text"] {
+  background: #efefef;
+  margin: 0;
+  border-radius: 6px;
+}
+section .container .textwidget .filtr-search {
+  background: #efefef;
+  max-width: 250px;
+}
+section .container input:before {
+  content: 'test';
+  font: normal normal normal 14px/1 FontAwesome;
+}
+section .container .filterizr-search i {
+  color: #5699c8;
+  font-size: 26px;
+  top: 10px;
+  position: absolute;
+  right: 15px;
+}
+.filterizr-search .filterizr-search-box {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+/* GRID */
+.filtr-container .item-desc {
+  display: none;
+}
+.filtr-container br {
+  display: none;
+}
+.filtr-item {
+  margin-bottom: 10px;
+}
+.filtr-container {
+  max-width: 800px;
+  border: solid 1px #efefef;
+  border-radius: 6px;
+}
